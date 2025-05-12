@@ -1,16 +1,32 @@
-# birthday_alarm
+Academy/Birthday Alarm/birthday_alarm/README.md
+# Birthday Alarm
 
-A new Flutter project.
+A Flutter application to manage and track birthdays with contact integration.
+
+## Features
+
+- Add and manage birthdays
+- Import birthdays from contacts
+- View upcoming birthdays
+- Birthday statistics and analytics
+- Modern Material Design UI
+- Local database storage
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repository
+2. Run `flutter pub get`
+3. Run `flutter run`
 
-A few resources to get you started if this is your first Flutter project:
+## Requirements
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter 3.0.0 or higher
+- Dart 2.17.0 or higher
+- iOS 11.0+ / Android 5.0+
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Dependencies
+
+- sqflite
+- intl
+- permission_handler
+- contacts_service
